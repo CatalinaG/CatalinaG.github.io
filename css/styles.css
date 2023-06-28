@@ -190,7 +190,7 @@ User Styles
 a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
 a:hover { color: #64c29e; text-decoration: none; }
 p { text-align: center; font-size: 14px; font-weight: 300; line-height: 1.8em; margin-top: 25px; }
-p.text-intro { font-size: 18px; }
+p.text-intro { font-size: 18px; text-align: justify;}
 .hero { background: url(../img/hero-bg.jpg) no-repeat center center #f4f5fc; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 685px; }
 nav {position: relative; padding: 15px; }
 .logo-holder { background: url(../img/main-logo.png) no-repeat center center; width: 94px; height: 85px; position: absolute; top: 0; left: 327px; }
@@ -200,7 +200,7 @@ header ul { padding-top: 35px; }
 header ul li { list-style: none; float: left; text-transform: uppercase; letter-spacing: 2px; }
 header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .r_spacer { margin-right: 180px; }
-.intro { padding: 80px 0; background-color: #fbfbfb; }
+.intro { padding: 60px 15px; background-color: #fbfbfb; }
 .section-1 { background: url(../img/left-box-1.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-2 { background: url(../img/left-box-2.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-text { position: relative; height: 600px; }
@@ -255,3 +255,4 @@ footer p { font-size: 13px; margin: 0; }
 .instagram-icon { background: url(../img/instagram-icon.png); height: 34px; width: 35px; display: block; text-indent: -9999px; }
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp { visibility: visible; }
+.text-right { text-align: right !important;}
