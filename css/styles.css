@@ -144,7 +144,7 @@ footer p { font-size: 13px; margin: 0; }
 .bold-16p { font-size: 15px; font-weight: 600; }
 .footer-midcol { margin-left: auto; margin-right: auto; }
 .footer-midcol ul { text-align: center; padding: 0; }
-.footer-midcol li { list-style: none; display: inline-block; margin-right: 15px; }
+.footer-midcol li { list-style: none; display: inline-block; margin: 0 15px; }
 .footer-midcol li a { opacity: 1; }
 .footer-midcol li a:hover { opacity: 0.5; }
 .facebook-icon { background: url(../img/facebook-icon.png); height: 35px; width: 35px; display: block; text-indent: -9999px; background-size: 35px;}
