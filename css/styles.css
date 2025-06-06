@@ -152,6 +152,14 @@ footer p { font-size: 13px; margin: 0; }
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp { visibility: visible; }
 .text-right { text-align: right !important;}
-.menu a {
-	font-size: 18px;
+.menu a, .menu a:visited, menu a:active {
+	font-size: 20px;
+	line-height: 20px;
+	padding: 8px 32px;
+	border: 2px solid #696950;
+	text-transform: uppercase;
+}
+.menu a:hover {
+	text-decoration: none;
+	background: #696950;
 }
